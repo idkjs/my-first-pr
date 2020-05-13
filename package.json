@@ -1,32 +1,32 @@
 {
-  "name": "my-first-pr",
-  "version": "0.1.0",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dylanirlbeck/my-first-pr"
-  },
-  "devDependencies": {
-    "@dylanirlbeck/tailwind-ppx": "0.7.0",
-    "bs-platform": "7.1.1",
-    "parcel-bundler": "^1.12.4",
-    "tailwindcss": "^1.1.4"
-  },
-  "dependencies": {
-    "bs-fetch": "^0.5.2",
-    "bs-webapi": "^0.15.9",
-    "decco": "^1.2.1",
-    "re-classnames": "^4.1.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "reason-react": "0.8.0"
-  },
-  "scripts": {
-    "build:styles": "tailwind build src/index.css -o src/tailwind.css",
-    "dev": "parcel src/index.html",
-    "build": "bsb -make-world && parcel build src/index.html",
-    "test": "echo \"Error: run tests from root\" && exit 1",
-    "re:build": "bsb -make-world -clean-world",
-    "re:watch": "bsb -make-world -clean-world -w"
-  }
+	"name": "my-first-pr",
+	"version": "0.1.0",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dylanirlbeck/my-first-pr"
+	},
+	"devDependencies": {
+		"@dylanirlbeck/tailwind-ppx": "0.7.0",
+		"bs-platform": "7.3.2",
+		"parcel-bundler": "^1.12.4",
+		"tailwindcss": "^1.4.6"
+	},
+	"dependencies": {
+		"bs-fetch": "^0.5.2",
+		"bs-webapi": "^0.15.9",
+		"decco": "^1.2.1",
+		"re-classnames": "^4.1.0",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"reason-react": "0.8.0"
+	},
+	"scripts": {
+		"build:styles": "tailwind build src/index.css -o src/tailwind.css",
+		"dev": "parcel src/index.html",
+		"build": "bsb -make-world && parcel build src/index.html",
+		"test": "echo \"Error: run tests from root\" && exit 1",
+		"re:build": "bsb -make-world -clean-world",
+		"re:watch": "bsb -make-world -clean-world -w"
+	}
 }
